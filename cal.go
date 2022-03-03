@@ -44,6 +44,7 @@ func caltax(name string, income float64, ltf float64, insurance float64) float64
 		tax = (net-5000000)*0.35 + 1265000
 	}
 	// return fmt.Sprintf("%s เงินภาษีที่ต้องจ่ายคือ %10.2f \n", name, tax)
+	//pull req test
 	return tax
 
 }
